@@ -24,4 +24,11 @@ public class FizzBuzzTest {
         assertEquals(1,result);
     }
     
+    @Test
+    public void testFizzBuzzDeDosDevuelveDos() {
+        FizzBuzz fb=new FizzBuzz();
+        int result=fb.getFizzBuzz(2);
+        assertEquals(2,result);
+    }
+    
 }
